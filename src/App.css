@@ -36,3 +36,120 @@
     transform: rotate(360deg);
   }
 }
+.main-page-container img {
+  height: 350px;
+}
+.main-text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.main-content-container {
+  margin-top: 30px;
+}
+.menu-item-container {
+  margin-bottom: 35px;
+}
+p.menu-item-container--name {
+  margin: 10px 0 0;
+  font-family: Verdana, sans-serif;
+  font-weight: 600;
+}
+p.menu-item-container--desc {
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: 2px;
+  height: 35px;
+}
+.menu-item-container .menu-item-container--price {
+  font-weight: bold;
+}
+.menu-item-container--category {
+  border: 1px solid;
+  padding: .375rem .75rem;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.menu-item-container--category.pizza {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+.menu-item-container--category.salads {
+  border-color: #28a745;
+  color: #28a745;
+}
+.menu-item-container--category.drinks {
+  border-color: #ffc107;
+  color: #ffc107;
+}
+.menu-item-container > .row {
+  margin-bottom: 20px;
+}
+.your-order-block {
+  background: #ddd;
+  padding: 20px 30px;
+}
+.your-order-block--title {
+  font-family: Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.your-order-block--list {
+  list-style: none;
+  padding-left: 0;
+}
+.your-order-block--list li {
+  position: relative;
+  clear: both;
+}
+.your-order-block--list li img {
+  width: 25%;
+  display: inline-block;
+  height: 25%;
+}
+.your-order-item {
+  padding: 0 0 10px 10px;
+  width: 65%;
+  display: inline-block;
+}
+.your-order-item--title {
+  margin-left: 15px;
+  font-family: Verdana, sens-serif;
+  font-weight: 600;
+}
+.your-order-item .your-order-item--price {
+  position: absolute;
+  right: 0;
+  font-weight: bold;
+}
+.remove-item {
+  position: relative;
+  top: 19px;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.order-place-container h2 {
+  margin-bottom: 30px;
+}
+.table td, .table th {
+  text-align: center;
+  vertical-align: middle;
+}
+.table tr td:first-child {
+  width: 15%;
+}
+.form-row {
+  margin-bottom: 10px;
+}
+.pull-right {
+  float: right;
+}

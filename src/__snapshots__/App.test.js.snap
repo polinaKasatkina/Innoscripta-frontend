@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product renders correctly 1`] = `
+Array [
+  "",
+  <div
+    className="col-md-4"
+  >
+    <div
+      className="menu-item-container"
+    >
+      <img
+        className="img-fluid rounded"
+        src="/images/margarita.jpg"
+      />
+      <p
+        className="menu-item-container--name"
+      >
+        Margarita
+      </p>
+      <p
+        className="menu-item-container--desc"
+      >
+        cheese, tomatoes
+      </p>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <p
+            className="menu-item-container--price your-order-item--price"
+          >
+            $10
+          </p>
+        </div>
+        <div
+          className="text-right col-md-6"
+        >
+          <span
+            className="menu-item-container--category pizza"
+          >
+            pizza
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Product renders correctly on Main page 1`] = `
+Array [
+  "",
+  <div
+    className="col-md-4"
+  >
+    <div
+      className="menu-item-container"
+    >
+      <img
+        className="img-fluid rounded"
+        src="/images/margarita.jpg"
+      />
+      <p
+        className="menu-item-container--name"
+      >
+        Margarita
+      </p>
+      <p
+        className="menu-item-container--desc"
+      >
+        cheese, tomatoes
+      </p>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <p
+            className="menu-item-container--price your-order-item--price"
+          >
+            $10
+          </p>
+        </div>
+        <div
+          className="text-right col-md-6"
+        >
+          <span
+            className="menu-item-container--category pizza"
+          >
+            pizza
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Product renders correctly on Order page, in cart 1`] = `
+Array [
+  "",
+  <div
+    className="col-md-4"
+  >
+    <div
+      className="menu-item-container"
+    >
+      <img
+        className="img-fluid rounded"
+        src="/images/margarita.jpg"
+      />
+      <p
+        className="menu-item-container--name"
+      >
+        Margarita
+      </p>
+      <p
+        className="menu-item-container--desc"
+      >
+        cheese, tomatoes
+      </p>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <p
+            className="menu-item-container--price your-order-item--price"
+          >
+            $10
+          </p>
+        </div>
+        <div
+          className="text-right col-md-6"
+        >
+          <span
+            className="menu-item-container--category pizza"
+          >
+            pizza
+          </span>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-4"
+        >
+          Qty: 
+        </div>
+        <div
+          className="col-md-8"
+        >
+          <div
+            className="mb-3 input-group"
+          >
+            <div
+              className="input-group-prepend"
+            >
+              <button
+                className="btn btn-outline-secondary"
+                data-dir="dwn"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                -
+              </button>
+            </div>
+            <input
+              className="text-center form-control"
+              onChange={[Function]}
+              type="text"
+              value={3}
+            />
+            <div
+              className="input-group-append"
+            >
+              <button
+                className="btn btn-outline-secondary"
+                data-dir="up"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                +
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Product renders correctly on Order page, not in cart 1`] = `
+Array [
+  "",
+  <div
+    className="col-md-4"
+  >
+    <div
+      className="menu-item-container"
+    >
+      <img
+        className="img-fluid rounded"
+        src="/images/margarita.jpg"
+      />
+      <p
+        className="menu-item-container--name"
+      >
+        Margarita
+      </p>
+      <p
+        className="menu-item-container--desc"
+      >
+        cheese, tomatoes
+      </p>
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <p
+            className="menu-item-container--price your-order-item--price"
+          >
+            $10
+          </p>
+        </div>
+        <div
+          className="text-right col-md-6"
+        >
+          <span
+            className="menu-item-container--category pizza"
+          >
+            pizza
+          </span>
+        </div>
+      </div>
+      <button
+        className="btn btn-dark  btn-block btn-lg"
+        onClick={[Function]}
+      >
+        Add to Cart
+      </button>
+    </div>
+  </div>,
+]
+`;
