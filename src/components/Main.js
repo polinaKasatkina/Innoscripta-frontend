@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import config from '../config';
 
 import Product from './Product';
 
@@ -15,7 +16,7 @@ export default class Main extends Component {
 
     componentDidMount() {
 
-        fetch('http://localhost:8000/api/getRandProducts', {
+        fetch(config.backendHost + '/api/getRandProducts', {
             method: 'GET'
         })
             .then(response => {

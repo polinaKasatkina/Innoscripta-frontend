@@ -35,7 +35,7 @@ export default class Navigation extends Component {
             <div>
                 <Navbar bg="light" expand="md">
                     <Container>
-                        <Navbar.Brand href="#home">Best Pizza</Navbar.Brand>
+                        <Link className="nav-link" to="/"><Navbar.Brand>Best Pizza</Navbar.Brand></Link>
                         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto">

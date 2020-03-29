@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import config from '../config';
 
 import YourOrder from './YourOrder';
 import Product from './Product';
@@ -103,7 +104,7 @@ class Order extends Component {
 
 
     componentDidMount() {
-        fetch('http://localhost:8000/api/allProducts', {
+        fetch(config.backendHost + '/api/allProducts', {
             method: 'GET'
         })
             .then(response => {

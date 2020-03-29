@@ -1,3 +1,5 @@
+import config from '../config';
+
 class CartPersister {
 
     saveCart(cart) {
@@ -39,7 +41,7 @@ class CartPersister {
 
         if (productIDs.length === 0) return fullCart;
 
-        return fetch('http://localhost:8000/api/getProducts', {
+        return fetch(config.backendHost + '/api/getProducts', {
             method: 'POST',
             body : JSON.stringify({
                 productIDs : productIDs

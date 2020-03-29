@@ -1,5 +1,6 @@
 import React, { Component }  from 'react';
 import { Container, Row, Col, Table, Image, Alert } from 'react-bootstrap';
+import config from '../config';
 
 import OrderForm from './OrderForm';
 import Price from './context/Price';
@@ -36,7 +37,7 @@ export default class OrderPlace extends Component {
 
         data.append('cart', JSON.stringify(this.state.cart));
 
-        fetch('http://localhost:8000/api/order/save', {
+        fetch(config.backendHost + '/api/order/save', {
             method: 'POST',
             body: data
         })
