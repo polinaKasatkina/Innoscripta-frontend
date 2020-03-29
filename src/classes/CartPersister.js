@@ -39,7 +39,7 @@ class CartPersister {
         });
         let fullCart = [];
 
-        if (productIDs.length === 0) return fullCart;
+        if (productIDs.length === 0) return Promise.resolve(fullCart);
 
         return fetch(config.backendHost + '/api/getProducts', {
             method: 'POST',

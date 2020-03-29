@@ -76,9 +76,11 @@ class Order extends Component {
             array.splice(index, 1);
             this.setState({
                 cart: array
-            },() => this.cartPersister.saveCart(this.state.cart));
+            },() => {
+                this.cartPersister.saveCart(this.state.cart);
+                this.calculateTotals();
+            });
         }
-        this.calculateTotals();
 
     }
 
